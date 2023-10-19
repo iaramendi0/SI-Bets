@@ -33,7 +33,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 //aldaketa2
 //aldaketa3
 //azken aldaketa
-//hau
+//hauu
 @RunWith(MockitoJUnitRunner.class)
 public class addBetBLBMTest {
      DataAccess dataAccess=Mockito.mock(DataAccess.class);
