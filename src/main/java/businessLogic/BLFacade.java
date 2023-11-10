@@ -15,6 +15,7 @@ import domain.Apustua;
 import domain.Aukera;
 import domain.Erregistratua;
 import domain.Event;
+import domain.ExtendedIterator;
 import domain.MezuaInfo;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
@@ -40,6 +41,9 @@ public interface BLFacade  {
  	 * @throws QuestionAlreadyExist if the same question already exists for the event
 	 */
 	@WebMethod Question createQuestion(Event event, String question, float betMinimum) throws EventFinished, QuestionAlreadyExist;
+	
+	
+	@WebMethod public ExtendedIterator getEventsIterator(Date date);
 	
 	
 	/**

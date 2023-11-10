@@ -16,6 +16,8 @@ import domain.Apustua;
 import domain.Aukera;
 import domain.Erregistratua;
 import domain.Event;
+import domain.ExtendedIterator;
+import domain.ExtendedIteratorEvents;
 import domain.MezuaInfo;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
@@ -84,7 +86,12 @@ public BLFacadeImplementation(DataAccess da)  {
 	 		
 	 		return qry;
    }
-	
+   @WebMethod
+   public ExtendedIterator getEventsIterator(Date date) {
+	   return new ExtendedIteratorEvents(getEvents(date));
+   }
+   
+   
 	/**
 	 * This method invokes the data access to retrieve the events of a given date 
 	 * 
