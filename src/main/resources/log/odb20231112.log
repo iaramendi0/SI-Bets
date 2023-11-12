@@ -1,0 +1,276 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-11-12 17:30:32 #1 store] 
+Database 'C:\Users\carre\git\SI-Bets_diseinu_patroiak\src\main\resources\bets.temp' is opened by 22216@MSI
+
+[2023-11-12 17:30:33 #2 type.registry] 
+New type domain.Aukera
+
+[2023-11-12 17:30:33 #3 type] 
+Type domain.Aukera is not enhanced.
+
+[2023-11-12 17:30:33 #4 type.registry] 
+New type domain.Apustua
+
+[2023-11-12 17:30:33 #5 type.registry] 
+New type java.util.Vector<domain.Apustua>
+
+[2023-11-12 17:30:33 #6 type.registry] 
+New type domain.Question
+
+[2023-11-12 17:30:33 #7 type] 
+Type domain.Apustua is not enhanced.
+
+[2023-11-12 17:30:33 #8 type.registry] 
+New type java.util.ArrayList<domain.Aukera>
+
+[2023-11-12 17:30:33 #9 type] 
+Type domain.Question is not enhanced.
+
+[2023-11-12 17:30:33 #10 type.registry] 
+New type java.util.Vector<domain.Aukera>
+
+[2023-11-12 17:30:33 #11 type.registry] 
+New type domain.Event
+
+[2023-11-12 17:30:33 #12 type] 
+Type domain.Event is not enhanced.
+
+[2023-11-12 17:30:33 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2023-11-12 17:30:33 #14 type.registry] 
+New type domain.User
+
+[2023-11-12 17:30:33 #15 type.registry] 
+New type domain.Erregistratua
+
+[2023-11-12 17:30:33 #16 type] 
+Type domain.User is not enhanced.
+
+[2023-11-12 17:30:33 #17 type] 
+Type domain.Erregistratua is not enhanced.
+
+[2023-11-12 17:30:33 #18 type.registry] 
+New type domain.Mezua
+
+[2023-11-12 17:30:33 #19 type.registry] 
+New type java.util.ArrayList<domain.Mezua>
+
+[2023-11-12 17:30:33 #20 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2023-11-12 17:30:33 #21 type.registry] 
+New type domain.Mugimendua
+
+[2023-11-12 17:30:33 #22 type.registry] 
+New type java.util.ArrayList<domain.Mugimendua>
+
+[2023-11-12 17:30:33 #23 type] 
+Type domain.Mezua is not enhanced.
+
+[2023-11-12 17:30:33 #24 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2023-11-12 17:30:33 #25 type.registry] 
+New type domain.Admin
+
+[2023-11-12 17:30:33 #26 type] 
+Type domain.Admin is not enhanced.
+
+[2023-11-12 17:30:33 #27 type.registry] 
+New type domain.Editorea
+
+[2023-11-12 17:30:33 #28 type] 
+Type domain.Editorea is not enhanced.
+
+[2023-11-12 17:30:33 #29 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2023-11-12 17:30:33 #30 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-11-12 17:33:25 #1 store] 
+Database 'C:\Users\carre\git\SI-Bets_diseinu_patroiak\src\main\resources\bets.temp' is opened by 10304@MSI
+
+[2023-11-12 17:33:25 #2 type.registry] 
+New type domain.Aukera
+
+[2023-11-12 17:33:25 #3 type] 
+Type domain.Aukera is not enhanced.
+
+[2023-11-12 17:33:25 #4 type.registry] 
+New type domain.Apustua
+
+[2023-11-12 17:33:25 #5 type.registry] 
+New type java.util.Vector<domain.Apustua>
+
+[2023-11-12 17:33:25 #6 type.registry] 
+New type domain.Question
+
+[2023-11-12 17:33:25 #7 type] 
+Type domain.Apustua is not enhanced.
+
+[2023-11-12 17:33:25 #8 type.registry] 
+New type java.util.ArrayList<domain.Aukera>
+
+[2023-11-12 17:33:25 #9 type] 
+Type domain.Question is not enhanced.
+
+[2023-11-12 17:33:25 #10 type.registry] 
+New type java.util.Vector<domain.Aukera>
+
+[2023-11-12 17:33:25 #11 type.registry] 
+New type domain.Event
+
+[2023-11-12 17:33:25 #12 type] 
+Type domain.Event is not enhanced.
+
+[2023-11-12 17:33:25 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2023-11-12 17:33:25 #14 type.registry] 
+New type domain.User
+
+[2023-11-12 17:33:25 #15 type.registry] 
+New type domain.Erregistratua
+
+[2023-11-12 17:33:25 #16 type] 
+Type domain.User is not enhanced.
+
+[2023-11-12 17:33:25 #17 type] 
+Type domain.Erregistratua is not enhanced.
+
+[2023-11-12 17:33:25 #18 type.registry] 
+New type domain.Mezua
+
+[2023-11-12 17:33:25 #19 type.registry] 
+New type java.util.ArrayList<domain.Mezua>
+
+[2023-11-12 17:33:25 #20 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2023-11-12 17:33:25 #21 type.registry] 
+New type domain.Mugimendua
+
+[2023-11-12 17:33:25 #22 type.registry] 
+New type java.util.ArrayList<domain.Mugimendua>
+
+[2023-11-12 17:33:25 #23 type] 
+Type domain.Mezua is not enhanced.
+
+[2023-11-12 17:33:25 #24 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2023-11-12 17:33:25 #25 type.registry] 
+New type domain.Admin
+
+[2023-11-12 17:33:25 #26 type] 
+Type domain.Admin is not enhanced.
+
+[2023-11-12 17:33:25 #27 type.registry] 
+New type domain.Editorea
+
+[2023-11-12 17:33:25 #28 type] 
+Type domain.Editorea is not enhanced.
+
+[2023-11-12 17:33:25 #29 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2023-11-12 17:33:25 #30 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-11-12 17:38:49 #1 store] 
+Database 'C:\Users\carre\git\SI-Bets_diseinu_patroiak\src\main\resources\bets.temp' is opened by 20932@MSI
+
+[2023-11-12 17:38:50 #2 type.registry] 
+New type domain.Aukera
+
+[2023-11-12 17:38:50 #3 type] 
+Type domain.Aukera is not enhanced.
+
+[2023-11-12 17:38:50 #4 type.registry] 
+New type domain.Apustua
+
+[2023-11-12 17:38:50 #5 type.registry] 
+New type java.util.Vector<domain.Apustua>
+
+[2023-11-12 17:38:50 #6 type.registry] 
+New type domain.Question
+
+[2023-11-12 17:38:50 #7 type] 
+Type domain.Apustua is not enhanced.
+
+[2023-11-12 17:38:50 #8 type.registry] 
+New type java.util.ArrayList<domain.Aukera>
+
+[2023-11-12 17:38:50 #9 type] 
+Type domain.Question is not enhanced.
+
+[2023-11-12 17:38:50 #10 type.registry] 
+New type java.util.Vector<domain.Aukera>
+
+[2023-11-12 17:38:50 #11 type.registry] 
+New type domain.Event
+
+[2023-11-12 17:38:50 #12 type] 
+Type domain.Event is not enhanced.
+
+[2023-11-12 17:38:50 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2023-11-12 17:38:50 #14 type.registry] 
+New type domain.User
+
+[2023-11-12 17:38:50 #15 type.registry] 
+New type domain.Erregistratua
+
+[2023-11-12 17:38:50 #16 type] 
+Type domain.User is not enhanced.
+
+[2023-11-12 17:38:50 #17 type] 
+Type domain.Erregistratua is not enhanced.
+
+[2023-11-12 17:38:50 #18 type.registry] 
+New type domain.Mezua
+
+[2023-11-12 17:38:50 #19 type.registry] 
+New type java.util.ArrayList<domain.Mezua>
+
+[2023-11-12 17:38:50 #20 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2023-11-12 17:38:50 #21 type.registry] 
+New type domain.Mugimendua
+
+[2023-11-12 17:38:50 #22 type.registry] 
+New type java.util.ArrayList<domain.Mugimendua>
+
+[2023-11-12 17:38:50 #23 type] 
+Type domain.Mezua is not enhanced.
+
+[2023-11-12 17:38:50 #24 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2023-11-12 17:38:50 #25 type.registry] 
+New type domain.Admin
+
+[2023-11-12 17:38:50 #26 type] 
+Type domain.Admin is not enhanced.
+
+[2023-11-12 17:38:50 #27 type.registry] 
+New type domain.Editorea
+
+[2023-11-12 17:38:50 #28 type] 
+Type domain.Editorea is not enhanced.
+
+[2023-11-12 17:38:50 #29 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2023-11-12 17:38:50 #30 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+

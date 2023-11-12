@@ -16,7 +16,7 @@ public class IteratorTest {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date date;
 		try {
-		date = sdf.parse("17/12/2020");
+		date = sdf.parse("17/12/2023");
 		ExtendedIterator<Event> iterator = blFacade.getEventsIterator(date);
 		Event e;
 		System.out.println("_____________________");
