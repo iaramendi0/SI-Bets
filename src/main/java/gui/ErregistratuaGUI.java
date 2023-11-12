@@ -16,6 +16,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.TextArea;
 import javax.swing.GroupLayout.Alignment;
+import javax.swing.LayoutStyle.ComponentPlacement;
 
 
 public class ErregistratuaGUI extends JFrame {
@@ -48,6 +49,7 @@ public class ErregistratuaGUI extends JFrame {
 	private JButton jButtonLogOut;
 	private JTextField bilatuField;
 	private JButton btnLaguntza;
+	private JButton btnApostuakIkusi;
 	
 	/**
 	 * This is the default constructor
@@ -111,83 +113,93 @@ public class ErregistratuaGUI extends JFrame {
 
 				}
 			});
-
+			
 			btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 8));
+			
+			
 			GroupLayout gl_jContentPane = new GroupLayout(jContentPane);
 			gl_jContentPane.setHorizontalGroup(
-				gl_jContentPane.createParallelGroup(Alignment.LEADING)
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addGap(10)
-						.addComponent(getJButtonLogOut(), GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE)
-						.addGap(260)
-						.addComponent(lblNewLabel, GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
-						.addGap(21))
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addGap(355)
-						.addComponent(bilatuField, GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
-						.addGap(10)
-						.addComponent(btnNewButton, GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
-						.addGap(11))
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addGap(318)
-						.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 163, Short.MAX_VALUE))
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addGap(135)
-						.addComponent(getLblNewLabel(), GroupLayout.DEFAULT_SIZE, 208, Short.MAX_VALUE)
-						.addGap(138))
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addComponent(getBotonQueryQueries(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
-						.addGap(33)
-						.addComponent(getButtonDiruaSartu(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
-						.addGap(31)
-						.addComponent(getApostuaEgin(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE))
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addGap(82)
-						.addComponent(getBotonMugimenduakIkusi(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
-						.addGap(35)
-						.addComponent(getBtnLaguntza(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
-						.addGap(86))
-					.addComponent(getPanel(), GroupLayout.DEFAULT_SIZE, 481, Short.MAX_VALUE)
+			gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(10)
+			.addComponent(getJButtonLogOut(), GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE)
+			.addGap(260)
+			.addComponent(lblNewLabel, GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
+			.addGap(21))
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(355)
+			.addComponent(bilatuField, GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+			.addGap(10)
+			.addComponent(btnNewButton, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+			.addGap(11))
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(318)
+			.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 163, Short.MAX_VALUE))
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(135)
+			.addComponent(getLblNewLabel(), GroupLayout.DEFAULT_SIZE, 208, Short.MAX_VALUE)
+			.addGap(138))
+			.addComponent(getPanel(), GroupLayout.DEFAULT_SIZE, 481, Short.MAX_VALUE)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addComponent(getBotonQueryQueries(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
+			.addComponent(getBotonMugimenduakIkusi(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE))
+			.addGap(33)
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addComponent(getBtnLaguntza(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
+			.addGap(31)
+			.addComponent(getApostuakIkusi(), GroupLayout.PREFERRED_SIZE, 139, GroupLayout.PREFERRED_SIZE))
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addComponent(getButtonDiruaSartu(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
+			.addGap(31)
+			.addComponent(getApostuaEgin(), GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE))))
 			);
 			gl_jContentPane.setVerticalGroup(
-				gl_jContentPane.createParallelGroup(Alignment.LEADING)
-					.addGroup(gl_jContentPane.createSequentialGroup()
-						.addGap(7)
-						.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
-							.addComponent(getJButtonLogOut(), GroupLayout.DEFAULT_SIZE, 21, Short.MAX_VALUE)
-							.addGroup(gl_jContentPane.createSequentialGroup()
-								.addGap(3)
-								.addComponent(lblNewLabel, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-								.addGap(5)))
-						.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
-							.addGroup(gl_jContentPane.createSequentialGroup()
-								.addComponent(bilatuField, GroupLayout.PREFERRED_SIZE, 12, Short.MAX_VALUE)
-								.addGap(1))
-							.addGroup(gl_jContentPane.createSequentialGroup()
-								.addGap(1)
-								.addComponent(btnNewButton, GroupLayout.PREFERRED_SIZE, 12, GroupLayout.PREFERRED_SIZE)))
-						.addGap(5)
-						.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 12, GroupLayout.PREFERRED_SIZE)
-						.addGap(2)
-						.addComponent(getLblNewLabel(), GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
-						.addGap(10)
-						.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
-							.addComponent(getBotonQueryQueries(), GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
-							.addComponent(getButtonDiruaSartu(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE)
-							.addComponent(getApostuaEgin(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE))
-						.addGap(10)
-						.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
-							.addComponent(getBotonMugimenduakIkusi(), GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
-							.addComponent(getBtnLaguntza(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE))
-						.addGap(36)
-						.addComponent(getPanel(), GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE))
+			gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(7)
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addComponent(getJButtonLogOut(), GroupLayout.DEFAULT_SIZE, 21, Short.MAX_VALUE)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(3)
+			.addComponent(lblNewLabel, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+			.addGap(5)))
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addComponent(bilatuField, GroupLayout.PREFERRED_SIZE, 12, Short.MAX_VALUE)
+			.addGap(1))
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(1)
+			.addComponent(btnNewButton, GroupLayout.PREFERRED_SIZE, 12, GroupLayout.PREFERRED_SIZE)))
+			.addGap(5)
+			.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 12, GroupLayout.PREFERRED_SIZE)
+			.addGap(2)
+			.addComponent(getLblNewLabel(), GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
+			.addGap(10)
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addComponent(getBotonQueryQueries(), GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
+			.addComponent(getButtonDiruaSartu(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE)
+			.addComponent(getApostuaEgin(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE))
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.LEADING)
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addGap(10)
+			.addGroup(gl_jContentPane.createParallelGroup(Alignment.BASELINE)
+			.addComponent(getBotonMugimenduakIkusi(), GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
+			.addComponent(getBtnLaguntza(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE))
+			.addGap(36))
+			.addGroup(gl_jContentPane.createSequentialGroup()
+			.addPreferredGap(ComponentPlacement.UNRELATED)
+			.addComponent(getApostuakIkusi(), GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE)
+			.addPreferredGap(ComponentPlacement.RELATED)))
+			.addComponent(getPanel(), GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE))
 			);
 			jContentPane.setLayout(gl_jContentPane);
 
-			
-		}
-		return jContentPane;
-	}
+
+			}
+			return jContentPane;
+			}
 
 
 	/**
@@ -359,5 +371,20 @@ public class ErregistratuaGUI extends JFrame {
 		}
 		return btnLaguntza;
 	}
+	
+	private JButton getApostuakIkusi() {
+		if (btnApostuakIkusi == null) {
+		btnApostuakIkusi = new JButton();
+		btnApostuakIkusi.addActionListener(new ActionListener() {
+		public void actionPerformed(ActionEvent e) {
+		JFrame a= new EgindakoApustuakGUI(log);
+		nirePantaila.setVisible(false);
+		a.setVisible(true);
+		}
+		});
+		btnApostuakIkusi.setText(this.log+"-en apustuak ikusi");
+		}
+		return btnApostuakIkusi;
+		}
 } // @jve:decl-index=0:visual-constraint="0,0"
 
